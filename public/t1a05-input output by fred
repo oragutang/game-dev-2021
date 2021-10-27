@@ -1,3 +1,18 @@
-<h2 align=center>t1a05-input output by fred</h2>
-
-<a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">good reference to input java script innerhtml value by quinn</a>
+Version 0.1.2
+<h2 align=center>t1a05-input output by Fred</h2>
+<a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">Good reference to input putput
+Javascript innerHTML value by Fred</a>
+<h4> Example input output code</h4>
+<pre>
+let my In01 = document.getElementById('myNumol').value
+document.getElementById('myDivol').innerHTML = my In01 + squared = + my In01*my Ingi
+</pre>
+<h4> Example working code</h4>
+<input id="myNum01" type=number value="4" X<br>
+<input type=button value="myEvent squares" onclick="{
+let myIn0i = parseFloat(document.getElementById('myNumbl').value)
+let myAnswer = myIn01 * myIn01
+document.getElementById('myDivoi').innerHTML =
+myIn01 + squared - ' + myAnswer
+}"><br>
+<div id="myDivo1">...</div>
