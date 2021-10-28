@@ -1,27 +1,73 @@
-<h1 align=center>t1a03-forms-fred.html</h1>
-<font color=blue> Prove you can use: Forms</font>
-The following are all form elements (add to them):<br>
+version 0.0.8
+<font color=DarkSlateBlue>Enter Your First Name:<input type=text id="myText01" value="Fred"></font><br>
+  
+  <h2>CheckBox: </h2><br>
+<label class="container">Blue Whales
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+<label class="container">StingRay
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Dolphins
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Shark
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+
+</body>
+</html>
+
+ <h2>Radio of Colours</h2><br>
+  
 <form>
-Enter Your First Name: <input type=text id="myTexto1" value="Fred"><br>
-Checkbox: <br>
-Beef:<input type=checkbox><br>
-Veggy: <input type=checkbox><br>
-Radio Buttons : <br>
-107.7 <input type=radio name="myRad01" value=""><br>
-83.5 <input type=radio name="my Rado1"value=""><br>
+<input type="radio" name="colour" value="blue" checked><font color="MediumBlue">blue<br>
+<input type="radio" name="colour" value="orange"><font color="OrangeRed"> orange<br>
+<input type="radio" name="colour" value="red"><font color="Crimson">red<br>  
+<input type="radio" name="colour" value="green"><font color="Lime"> green<br>
+<input type="radio" name="colour" value="yellow"><font color="Gold"> yellow<br>
+<input type="radio" name="colour" value="other"><font color="Navy"> other<br>
+</form> 
+
+</body>
+</html>
+  
 hidden:<input type=hidden><br>
-File: <input type=file><br>
-reset:<input type =reset><br>
-Submit (advanced)<input type=submit><br>
-Button: <input type=button value="click" onclick="{
-document.getElementById('myAreal').value = 'Cool'
-}"><br>
-Textarea: <br>
-<textarea id="myArea01" cols=60 rows=5 > wow </textarea><br>
-Select Box: <BR>
-<select id="mySelecto1" size=2>
-<option value='myOne'>One
-<option value='my Two'>Two
-<option value='my Three'>Three
-</select>
+File:<input type=file><br>
+Reset:<input type=reset><br>
+Submit(Advanced):<input type=submit><br>
+
+  <!DOCTYPE html>
+<html>
+<body>
+  <font color="GreenYellow">Click Here:</font><button type="button" onclick="alert('thanks for clicking me!')">Click Me!</button><br>
+
+</body>
+</html>
+Textarea:<br>
+  <textarea id="myArea01" cols=60 rows=5 > HI </textarea><br>
+  
+  <h2><font color="DarkOrchid">Select Box</h2><br>
+<form action="https://www.google.com/">
+  <input list="Fishes" name="Fishes">
+  <datalist id="Fishes">
+    <option value="Clown Fish">
+    <option value="Gold Fish">
+    <option value="Sword Fish">
+    <option value="Blue Fish">
+    <option value="Red Lion Fish">
+  </datalist>
 </form>
+
+</body>
+</html>
+  
+  <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+  
+  <p id="demo"></p>
