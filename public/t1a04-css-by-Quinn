@@ -8,11 +8,24 @@ Another way to do css (Cascading Style Sheets: determine colors
 locations extra effects on the tags on your web page)<br>
 Here is typical in document style
 <pre>
-b{
-color: #00FF00;
-}
-</pre><br>
-I do Css inside the tag. It overpowers all other methods<br>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+b{color: #00FF00;}
+</pre><br>I do Css inside the tag. It overpowers all other methods<br>
 <b> This is bold</b><br>
 <b id="myB1" style="color:#00FF00; background-color: blue; "> This is bold</b>
 <input type=button value=Change onclick="{
