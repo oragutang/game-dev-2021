@@ -1,4 +1,4 @@
-Version 0.0.4</br>
+Version 0.0.5</br>
 <h1 align=center>T1A04 CSS by Fred</h1>
 Reference Link
 <a href="https://www.w3schools.com/cssref/default.asp">w3schools</a><br>
@@ -13,6 +13,14 @@ Here is typical in document style
 <html>
 <head>
 <style>
+body {
+  -webkit-animation: color change 5s infinite;
+  animation: colorchange 0.1s infinite;}
+@-webkit-keyframes colorchange {
+  0%  {backround:#32a852;}
+  25% {backround:#00bbff;}
+  75% {backround:#00bbff;}
+  100% {backround:#fffb00;}
 
 h1   {color: blue;}
 p    {color: red;}
@@ -23,16 +31,6 @@ p    {color: red;}
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
 
-<style>
-body{-webkit-animation: color change 5s infinite;
-  animation: colorchange 0.1s infinite;}
-@-webkit-keyframes colorchange {
-  0%  {backround:#32a852;}
-  25% {backround:#00bbff;}
-  75% {backround:#00bbff;}
-  100% {backround:#fffb00;}
-
-  </style>
 </body>
 </html>b{color: #00FF00;}
 </pre><br>I do Css inside the tag. It overpowers all other methods<br>
