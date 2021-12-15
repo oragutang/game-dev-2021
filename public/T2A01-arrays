@@ -5,7 +5,7 @@ Arrays are stored numbered variables
 <h4> Example Array code</h4>
 <pre>
 
-const myArray = new Array ( "dung", "poo", "pee", "fart", "scat", "tinkle" )
+const myArray = new Array [ "dung", "poo", "pee", "fart", "scat", "tinkle" ]
 myArray[0] = "dung"
 myArray[1] = "poo"
 myArray[2] = "pee"
@@ -14,7 +14,7 @@ myArray[4] = "scat"
 myArray[5] = "tinkle"
 
 
-const swords = new Array ( "longsword", "shortsword", "claymore", "zweihander", "scimitar", "khanda" )
+const swords = new Array [ "longsword", "shortsword", "claymore", "zweihander", "scimitar", "khanda" ]
 swords[0] = "longsword"
 swords[1] = "shortsword"
 swords[2] = "claymore"
@@ -30,7 +30,7 @@ Max Array Entry: kinput type=text id="myText01" value="3"><br>
 let my Temp = document.getElementById('myText01').value
 let mySum =
 document.getElementById('myDivo1').innerHTML
-myArray = new Array ("Fred", "Mary", "Zizzy" )
+myArray = new Array ["Fred", "Mary", "Zizzy" ]
 myArray[O] Fred'
 myArray[1] "Mary'
 myArray[2] = 'Zizzy'
